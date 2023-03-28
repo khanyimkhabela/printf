@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * handle_print - prints an argument
- * @fmt: formatted string to print the arguments
+ * handle_print - prints an argument based on its type
+ * @fmt: formatted string
  * @list: list of arguments
  * @ind: index
  * @buffer: array to handle print
@@ -10,7 +10,7 @@
  * @width: width
  * @precision: precision
  * @size: size
- * Return: 1 or 2;
+ * Return: 1 or 2
  */
 
 int handle_print(const char *fmt, int *ind, va_list list, char buffer[],
